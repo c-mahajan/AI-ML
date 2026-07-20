@@ -124,11 +124,11 @@ The notebook generally follows this pipeline:
 
 > Replace the placeholders with exact notebook values.
 
-- **Best Model**: `<MODEL_NAME>`
-- **Validation Accuracy**: `<XX.XX%>`
-- **Test Accuracy**: `<XX.XX%>`
-- **F1 Score**: `<X.XXX>`
-- **ROC-AUC**: `<X.XXX>`
+- **Accuracy:** **96.60%** (825 correct predictions out of 854 samples)
+- **Precision:** 97.42% (Of all approved predictions, 97.42% were actually approved)
+- **Recall:** 93.50% (Of all actual approvals, 93.50% were correctly identified)
+- **F1-Score:** 0.9542 (Harmonic mean of precision and recall)
+- **ROC-AUC:** 0.9932 (Excellent discrimination ability)
 
 ### Example Interpretation
 - Higher recall helps reduce false rejections of good applicants.
@@ -224,20 +224,14 @@ print("Approved" if pred in [1, "Y"] else "Not Approved")
 
 ---
 
-## 12) License
+## 12) Author
 
-Add your license here (e.g., MIT).
-
----
-
-## 13) Author
-
-- **Name**: `<Your Name>`
+- **Name**: `Chetan Mahajan`
 - **Project**: Loan Approval ML (E2E)
 
 ---
 
-## 14) Quick Checklist Before Publishing
+## 13) Quick Checklist Before Publishing
 
 - [ ] Replace placeholder metrics with actual notebook results  
 - [ ] Confirm final model name and saved artifact path  
