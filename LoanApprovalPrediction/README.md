@@ -121,9 +121,6 @@ The notebook generally follows this pipeline:
 ---
 
 ## 6) Results
-
-> Replace the placeholders with exact notebook values.
-
 - **Accuracy:** **96.60%** (825 correct predictions out of 854 samples)
 - **Precision:** 97.42% (Of all approved predictions, 97.42% were actually approved)
 - **Recall:** 93.50% (Of all actual approvals, 93.50% were correctly identified)
